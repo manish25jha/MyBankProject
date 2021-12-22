@@ -138,3 +138,25 @@ body {
     color: #333;
   }
 }
+
+/* HEADER */
+.header {
+  padding: 0 3 rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__title {
+    flex: 1;
+
+    max-width: 115rem;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    row-gap: 3rem;
+    align-content: center;
+    justify-content: center;
+
+    align-items: start;
+    justify-items: start;
+  }
+}
