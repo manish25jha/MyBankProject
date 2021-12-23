@@ -193,3 +193,12 @@ h4 {
     background-image: var(--gradient-primary);
   }
 }
+
+/* FEATURES */
+.features{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin: 0 12rem;
+  &
+}
