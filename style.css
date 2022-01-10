@@ -207,4 +207,30 @@ h4 {
 .features__header {
   font-size: 2rem;
   margin-bottom: 1rem;
+}
+
+/* OPERATION */
+.operations {
+  max-width: 100rem;
+  margin: 12rem auto 0 auto;
+  background-color: #fff;
+}
+.operations__tab-container {
+  display: flex;
+  justify-content: center;
+}
+.operations__tab {
+  margin-right: 2.5rem;
+  transform: translateY(-50%);
+}
+.operations__tab span {
+  margin-right: 1rem;
+  font-weight: 600;
+  display: inline-block;
+}
+.operations__tab--1 {
+  background-color: var(--color-secondary);
+}
+.operations__tab--1:hover {
+  background-color: var(--color-secondary-darker);
 }/*# sourceMappingURL=style.css.map */

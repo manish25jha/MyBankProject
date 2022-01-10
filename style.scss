@@ -219,3 +219,34 @@ h4 {
     margin-bottom: 1rem;
   }
 }
+
+/* OPERATION */
+.operations {
+  max-width: 100rem;
+  margin: 12rem auto 0 auto;
+
+  background-color: #fff;
+
+  &__tab-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__tab {
+    margin-right: 2.5rem;
+    transform: translateY(-50%);
+
+    span {
+      margin-right: 1rem;
+      font-weight: 600;
+      display: inline-block;
+    }
+  }
+
+  &__tab--1 {
+    background-color: var(--color-secondary);
+  }
+  &__tab--1:hover {
+    background-color: var(--color-secondary-darker);
+  }
+}
